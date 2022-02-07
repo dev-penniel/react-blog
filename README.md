@@ -15,6 +15,10 @@ This installs all the node modules and packages required to run this project.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+### `npx json-server --watch data/db.json --port 8000`
+
+Runs json server to pull our json data from the db.json file
+
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
