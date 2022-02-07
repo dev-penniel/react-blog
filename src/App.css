@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin-bottom: 60px;
+}
+
+.navbar h2{
+  color: #1979FE;
+  font-size: 1.5rem;
+}
+
+.navbar .links, a{
+  display: flex;
+  padding: 0 5px;
+}
+
+.content h1{
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.blog-preview{
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.418);
+}
+
+.blog-preview:hover{
+  background-color: aliceblue;
+  color: rgba(68, 68, 68, 0.788);
+}
+
+.blog-preview a{
+  text-decoration: none;
+  display: block;
+}
+
+.blog-preview h2{
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.blog-preview p{
+  font-size: 12px;
+}
+
+.title, .create-blog-title{
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.create-blog-title{
+  text-align: center;
+}
+
+.blog-title{
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #1979FE;
+}
+
+.blog-author{
+  margin: 10px 0 10px;
+}
+
+.blog-btn{
+  margin: 20px 0 10px;
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: tomato;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form{
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #F1F3F4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea, select{
+  border: solid .1px rgba(0, 0, 0, 0.253);
+  margin: 5px 0 10px;
+  height: 30px;
+}
+
+textarea{
+  height: 100px;
+}
+
+label{
+  font-size: 14px;
+}
+
+.add-blog{
+  margin-top: 20px;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgb(51, 132, 253);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
